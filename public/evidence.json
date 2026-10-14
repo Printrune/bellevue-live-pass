@@ -290,6 +290,33 @@
       "designImplication": "Make saved demonstration plans available offline and distinguish ticket access from purchase.",
       "apa": "Live Nation Worldwide, Inc. (2026, September 24). Live Nation At The Concert [Mobile app]. Google Play.",
       "retrieved": "2026-10-13"
+    },
+    {
+      "id": "E-RELAY",
+      "title": "Horse Nations Indian Relay",
+      "author": "Horse Nations Indian Relay Council",
+      "date": "n.d.",
+      "url": "https://horsenationsindianrelay.com/",
+      "evidenceType": "Official organizer description",
+      "finding": "Indian Relay Racing is a team equestrian sport involving multiple horses and rider exchanges.",
+      "limitations": "Describes the real sport; does not establish an event, track, partnership, or approval at Tulalip.",
+      "designImplication": "Tulalip Nations Indian Relay Championship is an independent fictional outdoor event with simulated spectator admission.",
+      "apa": "Horse Nations Indian Relay Council. (n.d.). Horse Nations Indian Relay. https://horsenationsindianrelay.com/",
+      "retrieved": "2026-10-14"
+    },
+    {
+      "id": "E-TRIUTE",
+      "title": "Ute Tribe hosts 2025 Tri-Ute Games",
+      "author": "Thompson, C.",
+      "date": "2025-07-25",
+      "url": "https://www.sudrum.com/eEditions/DrumPDF/2025/SUDrum-20250725.pdf",
+      "evidenceType": "Tribal newspaper reporting, page 16",
+      "finding": "The Tri-Ute Games bring the three Ute tribes together for youth sports including basketball and volleyball.",
+      "limitations": "Evidence of a real Ute community event, not approval to use its identity or confirmation that any Ute nation will participate in this project.",
+      "designImplication": "Battle of the Nations: Tulalip Championships is an independent multisport concept; community participation and programming require agreement.",
+      "apa": "Thompson, C. (2025, July 25). Ute Tribe hosts 2025 Tri-Ute Games. The Southern Ute Drum, p. 16.",
+      "retrieved": "2026-10-14"
     }
-  ]
+  ],
+  "updated": "2026-10-14"
 }

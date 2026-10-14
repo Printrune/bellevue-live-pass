@@ -12,3 +12,22 @@ test('trip flags overlaps and missing inter-destination transport',()=>{const it
 
 test('reward redemption respects remaining inventory',()=>{let s=bookItem(initialState(),makeItem(getOffer('orca'),3,'Alex'));for(const n of [8,8,4])s=bookItem(s,makeItem(getOffer('water'),n,'Alex'));assert.throws(()=>redeem(s,'three','water'),/inventory/);});
 test('premium seating retains its surcharge with an access request',()=>{const q=quote(getOffer('orca'),2,'Premium seating · aisle request');assert.equal(q.total,290);});
+
+test('new invitational admissions count as events without unlocking Orca-only rewards',()=>{
+ let s=initialState();
+ for(const id of ['indian-relay','indigenous-sports','skijoring','tulalip-race']){
+  const offer=getOffer(id),item=makeItem(offer,2,'Alex','General admission');
+  s=bookItem(s,item);
+  s.items=s.items.map(i=>i.id===item.id?{...i,attended:true}:i);
+  assert.equal(remaining(s,id),offer.stock-2);
+ }
+ assert.equal(rewardProgress(s).events,8);
+ assert.equal(rewardProgress(s).spend,250);
+ assert.equal(rewardProgress(s).tickets,0);
+ assert.equal(rewardProgress(s).visits,0);
+ assert.throws(()=>redeem(s,'three','water'),/qualifying activity/);
+ s=cancelItem(s,s.items[0].id);
+ assert.equal(rewardProgress(s).events,6);
+ assert.equal(rewardProgress(s).spend,174);
+ assert.equal(remaining(s,'indian-relay'),getOffer('indian-relay').stock);
+});

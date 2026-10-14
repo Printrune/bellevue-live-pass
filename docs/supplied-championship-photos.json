@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "purpose": "User-supplied event references; not evidence of a confirmed Tulalip event or participating athlete.",
+  "photos": [
+    {
+      "originalFilename": "WhatsApp Image 2026-10-14 at 18.52.10.jpeg",
+      "asset": "public/assets/tulalip-race.webp"
+    },
+    {
+      "originalFilename": "WhatsApp Image 2026-10-14 at 18.52.30.jpeg",
+      "asset": "public/assets/tulalip-race-women.webp"
+    },
+    {
+      "originalFilename": "WhatsApp Image 2026-10-14 at 18.53.26.jpeg",
+      "asset": "public/assets/skijoring.webp"
+    },
+    {
+      "originalFilename": "WhatsApp Image 2026-10-14 at 18.59.13.jpeg",
+      "asset": "public/assets/tulalip-relay.webp"
+    }
+  ],
+  "hero": {
+    "originalFilename": "WhatsApp Image 2026-10-14 at 20.09.31.jpeg",
+    "asset": "public/assets/hero-orca-action.webp",
+    "description": "User-supplied fictional Bellevue Orca basketball action concept. Used only as the destination hero."
+  },
+  "note": "Each event has a distinct card image. The first two racing references belong to the same race championship, with the second shown in its details gallery."
+}

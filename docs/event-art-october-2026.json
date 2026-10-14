@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-14",
+  "tool": "Built-in Imagegen",
+  "purpose": "Distinct fictional event art; no real participants, affiliation, or endorsement depicted.",
+  "assets": [
+    {
+      "name": "indian-relay",
+      "prompt": "Use case: ads-marketing. Create a wide cinematic 3:2 promotional concept photograph for a proposed Indian Relay Racing event card on the Bellevue Live! Pass sports and entertainment website. A powerful chestnut racehorse with a Native American adult athlete riding bareback (no saddle, athletic racing clothes, no ceremonial regalia), galloping along a broad dirt oval racetrack; another competitor at a safe distance behind, packed grandstand softly in background, evergreen Pacific Northwest landscape at dusk. Realistic safe equestrian sports composition, dynamic low sideline angle, correct horse anatomy, the main rider and horse clearly visible in the central portion so the image can be cropped to a square. Deep midnight navy shadows, vivid electric-blue grandstand illumination and luminous warm gold floodlights, premium editorial sports photography, rich detail, subtle flying dust, polished cinematic drama. This is fictional concept art, no actual tribe, sponsor, venue or person. No text, no lettering, no logos, no watermarks, no feather headdresses, no costumes. Visually distinct from an indoor basketball card. Fully opaque.",
+      "path": "public/assets/indian-relay.webp"
+    },
+    {
+      "name": "indigenous-sports",
+      "prompt": "Use case: ads-marketing. Create a wide cinematic 3:2 promotional concept photograph for a proposed Indigenous Sports Invitational event card for Bellevue Live! Pass. A contemporary intertribal community basketball tournament in a spectacular modern indoor sports arena, Native American adult women athletes in plain navy-and-gold and white-and-blue athletic uniforms. Central action: one player dribbling an orange basketball with two opponents in a realistic athletic contest, full natural bodies with correct hands, grounded court geometry. Spectators and a second practice court softly visible in the background. Modern sport and community pride, no ceremony or costumes or tribal regalia. Low courtside viewpoint, center-weighted composition with subjects readable when cropped to square. Midnight navy arena architecture, electric-blue LED ribbons without text, warm golden floodlights, glossy hardwood reflection, polished cinematic editorial photograph with rich detail. Fictional concept event, no identifiable real people, actual tribal seals, league logos, lettering, text or watermark. Fully opaque.",
+      "path": "public/assets/indigenous-sports.webp"
+    }
+  ]
+}
