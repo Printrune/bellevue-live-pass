@@ -1,0 +1,649 @@
+{
+  "title": "Bellevue Live! Pass: Designing a Dual-Destination Visitor Platform",
+  "subtitle": "A design-science prototype, commercial model and empirical research protocol",
+  "date": "2026-10-13",
+  "status": "Concept study and prototype specification. No participant study or operational pilot has been conducted.",
+  "abstract": "This project investigates whether a visitor platform connecting a proposed Bellevue arena district and a distinct proposed Tulalip entertainment destination can reduce planning effort and support measurable cross-destination visits. The artifact combines event discovery, ticket purchasing, accommodation, dining, mobility, group planning and tangible rewards. It uses three visual concepts and a working demonstration to expose the tradeoffs among event emphasis, destination discovery and contextual assistance. A targeted review of primary product descriptions, usability research, tourism theory, accessibility standards and Indigenous data governance informs the design. The proposed contribution is a testable service system that links transactions with practical travel and visitor control. Commercial outputs are illustrative scenarios, not forecasts. No partnership, franchise, development approval, transport agreement, media right, user-test result or economic impact is claimed. A staged mixed-method research protocol is supplied for subsequent evaluation.",
+  "researchQuestion": "How can an accessible, visitor-controlled digital platform connect two culturally and operationally distinct destinations to reduce trip-planning friction and increase completed cross-destination visits without obscuring cost, supplier responsibility or Indigenous authority?",
+  "sections": [
+    {
+      "id": "context",
+      "title": "1. Problem, scope and contribution",
+      "evidenceRefs": [],
+      "paragraphs": [
+        "The supplied proposal positions Bellevue as an urban event anchor and Tulalip as a complementary destination with longer-stay family, sport and cultural possibilities. These are planning propositions. The application therefore distinguishes existing regional infrastructure from fictional event inventory and proposed facilities. It uses selected supplied renderings as concept imagery, while retaining the original confidential planning documents outside the deployed platform.",
+        "The visitor problem is fragmentation: a ticket may be simple to buy while the surrounding visit requires separate searches, incompatible times, duplicated party information and uncertain transport. The project responds with a shared itinerary and optional assisted planning. A local fan can still complete a ticket-only purchase. Cross-destination recommendations should earn attention through relevance, availability and total trip practicality.",
+        "The proposed innovation is the connection between booking, mobility and explicit rewards across independently governed destinations. Its success must be assessed by completed visits, useful time saved, satisfaction and locally retained value. Page views, AI conversations and gross booking volume are incomplete proxies. The demonstration establishes interaction feasibility; it cannot establish demand, investment feasibility or partner commitment."
+      ]
+    },
+    {
+      "id": "theory",
+      "title": "2. Conceptual framework",
+      "evidenceRefs": [
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E21"
+      ],
+      "paragraphs": [
+        "Smart tourism describes coordination among information, physical infrastructure, businesses and visitor experience, rather than the presence of an app alone (Gretzel et al., 2015). Here that distinction implies that accurate service data and partner operations matter as much as visual design. The interface cannot remedy a nonexistent shuttle, unavailable room or unapproved cultural event.",
+        "Service-dominant logic directs attention to relationships and co-created value (Vargo & Lusch, 2004). For this project, visitors contribute preferences and decisions; operators contribute inventory, fulfillment and recovery. Customer-journey research adds a temporal view across discovery, purchase, use and subsequent engagement (Lemon & Verhoef, 2016). The resulting design retains support and cancellation visibility after checkout.",
+        "The experience-economy lens foregrounds visits (Pine & Gilmore, 1998). Destination competitiveness also calls for indicators beyond transaction counts (Dwyer & Kim, 2003). Accordingly, the research framework includes visitor satisfaction, local supplier participation and community-defined benefits. These are proposed measures, not demonstrated impacts.",
+        "Goal-gradient research gives a rationale for testing clear progress toward a reward (Kivetz et al., 2006). It does not establish that an arena ticket reward will increase profitable attendance. The design uses only actual qualifying purchases or visits, displays expiry and eligibility, and avoids artificial progress or concealed point equivalents.",
+        "The project model is: usable information and transparent costs support confidence; confidence and coherent planning reduce friction; practical transport and relevant rewards may support a second-destination visit; a well-delivered experience may support return behavior. Access requirements, available time, party composition, cultural relevance and transport conditions may moderate every link. All causal relationships remain hypotheses."
+      ]
+    },
+    {
+      "id": "competitive",
+      "title": "3. Competitive evidence and implications",
+      "evidenceRefs": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E22"
+      ],
+      "paragraphs": [
+        "Disney's official description brings tickets, plans, dining and navigation into one visitor experience; Universal describes travel-party management alongside ordering, maps and assistance (Walt Disney World Resort, n.d.; Universal Orlando Resort, n.d.). These establish useful capability precedents. They do not demonstrate that copying either interface would work for two separately governed Washington destinations.",
+        "Ticketmaster's published approach supports examining price transparency from the first selection stage (Ticketmaster, 2025). The Bellevue prototype therefore exposes mandatory charges and an explicit final total, while estimated meals and external transport remain separately labeled. Shortcuts into purchasing must not conceal conditions.",
+        "Chase Center illustrates adjacency between arena ticket services and mobile food ordering (Chase Center, n.d.). MGM shows how hotel arrival and dining can sit alongside entertainment (MGM Resorts International, n.d.). Live Nation's developer listing includes offline ticket access (Live Nation Worldwide, Inc., 2026). This project adopts the service relationships, not their proprietary technology or rights.",
+        "Public app descriptions were reviewed as evidence of advertised functionality. No proprietary app heatmaps, verified competitor conversion funnels or representative retention datasets were available in this review. Published screenshots and product claims do not justify precise uplift predictions. The report consequently uses explicit design hypotheses and a future testing protocol."
+      ]
+    },
+    {
+      "id": "navigation",
+      "title": "4. Information architecture and three design directions",
+      "evidenceRefs": [
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "paragraphs": [
+        "The five persistent destinations are Explore, My Plans, Live, Rewards and Navigate. Explore opens event discovery; My Plans contains tickets and itinerary; Live contains the active-visit experience; Rewards explains available benefits; Navigate handles movement. Named labels accompany icons. Account settings remain in the top-right menu, while VIP and Plan with AI receive visible entry points in the primary content.",
+        "Material guidance supports a small set of bottom-navigation destinations; it does not prove these labels are optimal (Google, n.d.). Research on hidden navigation motivates exposing the main tasks, with the qualification that its mobile comparison was between hidden and combined navigation rather than all possible tab designs (Pernice & Budiu, 2016).",
+        "A Book-tab alternative could benefit purchase intent but competes with Explore, where specific inventory must first be selected. Live can be weak before a visit, yet gives direct access to ticket-adjacent venue actions. The current default retains Live and includes an informative empty state outside an event. A prospective tree test and first-click test will compare it with Book before any claim of superiority.",
+        "Concept A uses cinematic event imagery, navy and gold, and prominent ticket actions. Concept B uses lighter, spacious destination framing and emphasizes itinerary relationships. Concept C uses a restrained contextual dashboard for current plans and relevant benefits. Each must represent the same inventory and tasks so that later evaluation does not confuse styling with missing functionality.",
+        "Baymard's research suggests evaluating form burden rather than optimizing only for the count of checkout screens (Scott, 2024). Accordingly, ticket-only checkout asks for the minimum demonstration details, preserves selected quantity and lets visitors decline all additional services. Itinerary checkout groups items by supplier and exposes separate policies."
+      ]
+    },
+    {
+      "id": "service",
+      "title": "5. End-to-end service design",
+      "evidenceRefs": [],
+      "paragraphs": [
+        "Discovery supports destination, category, date, price and party filters. Cards indicate that inventory is fictional, identify the destination, and show an intelligible price basis. A selected event leads to details, ticket quantity, accessible options and the reviewable purchase total. Sold-out items lead to an opt-in availability alert instead of a dead end.",
+        "The itinerary combines proposed activities and confirmed demonstration bookings. Each item retains its date, Pacific Time, location, party count, supplier terms and status. Conflict checks identify overlapping events and missing travel time. A separate return journey is required for a complete transport plan. Removing one activity should not silently cancel dependent reservations.",
+        "Collaborative planning uses sample participants to demonstrate invitations, votes and individual booking status. A group organizer sees pending decisions without implying that everyone has paid. Votes select preferred activities, not purchases. A participant may choose a different activity or refrain from booking without losing access to shared trip information.",
+        "The assisted planner translates a natural-language request into structured preferences and alternatives. Missing dates, party composition, budget or access needs trigger targeted follow-up controls. Package comparisons explain what is included, which costs are estimates and which tradeoffs produced the recommendation. The user can remove or replace each suggestion. No purchase or cancellation occurs on the strength of a chat message alone.",
+        "Best value means a feasible combination within stated priorities; it is not necessarily the lowest advertised ticket price. Total party costs include mandatory charges and selected transport, while taxes and estimates must be plainly identified. The system cannot call a package optimal across the market when it searches only demonstration inventory.",
+        "The visit companion surfaces the next action: a ticket, meeting point, restaurant reservation or departure. A simulated disruption offers an editable alternative and makes timing uncertainty visible. Alerts are opt-in by category and may be reset. Privacy controls and help remain accessible at every stage."
+      ]
+    },
+    {
+      "id": "mobility",
+      "title": "6. Mobility and the light-rail proposition",
+      "evidenceRefs": [
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "paragraphs": [
+        "BelRed is an existing 2 Line station and its official page lists accessible platforms (Sound Transit, n.d.-a). The Crosslake Connection opened in March 2026 (Sound Transit, 2026). These verified facts support a rail-first Bellevue concept. They do not verify a future arena's entrance, pedestrian bridge, walking duration or operating arrangements.",
+        "The fare page retrieved on 13 October 2026 lists adult Link rides at $3, youth travel through age 18 as free, and eligible reduced fares at $1. ORCA or contactless transfers receive credit within two hours; Link does not require tap-off (Sound Transit, n.d.-b). The demonstration treats these as dated reference facts, with a link to current agency information.",
+        "Exact itineraries and departure times are illustrative. The station page at retrieval also carried a scheduled October 17–18 crosslake disruption; this reinforces the need to consult current alerts. A production journey engine must combine route data, disruptions, user-selected walking constraints and transfer buffers. Static diagrams cannot guarantee step-free availability.",
+        "Tulalip is represented as a separate onward road connection, with shuttle, accessible vehicle or rideshare options subject to real operators and agreements. An optional event-plus-transit offer would need defined validity, redemption, reimbursement and responsibilities. A demonstration pass is never presented as an official ORCA fare medium.",
+        "Mobility evaluation should measure completed trips and missed connections as well as booking uptake. Proposed indicators include transport choice, return-trip completeness, reported confidence, help requests and missed departures. Any sustainability claim would require an explicit emissions method and travel-substitution evidence; the prototype makes no such quantified claim."
+      ]
+    },
+    {
+      "id": "loyalty",
+      "title": "7. Promotions, real rewards and commercial controls",
+      "evidenceRefs": [],
+      "paragraphs": [
+        "The demonstration distinguishes qualifying ticket purchases from attendance at distinct events. A three-ticket offer may unlock one eligible cross-destination admission; a separate repeat-visit offer may unlock another tangible benefit. Ticket quantity and visit count must never share an ambiguous progress label. Promotions are hypothetical, and each has its own qualification rule, inventory, validity and refund treatment.",
+        "The proposed operational ledger records the triggering booking or attendance confirmation and the benefit consumed. Canceled or refunded purchases reverse unredeemed qualification. If a reward has already been used, the provider applies the clearly agreed policy and a support path; the platform should not silently create debt. Promotion stacking is disabled unless explicitly permitted by both suppliers.",
+        "Complimentary inventory is a cost even when supplied from unused capacity. Reimbursement, capacity displacement, administration and potential incremental spend should be modeled separately. Benefits can be funded by supplier contributions, contracted promotion budgets, sponsorship or platform margin. Gross booking value must not be confused with platform revenue.",
+        "The illustrative $10,000 VIP threshold is a scenario rather than a recommendation. Qualifying spend needs an explicit basis, exclusions, period and reset policy. Benefits should be limited to authorized hospitality, priority services or inventory-backed experiences. An expensive threshold may be inappropriate for families and budget visitors, so ordinary rewards remain useful independently.",
+        "The accompanying unit-economics scenarios should compare contribution before and after rewards, weaker redemption economics, higher support costs and supplier concentration. A positive illustrative margin is not an investment case. Real launch decisions require contracted economics, demand evidence, cancellations, taxes and the costs of providing reliable service."
+      ]
+    },
+    {
+      "id": "governance",
+      "title": "8. Tribal authority, cultural representation and data governance",
+      "evidenceRefs": [
+        "E18",
+        "E19"
+      ],
+      "paragraphs": [
+        "The Tulalip Tribes' own account establishes its community and sovereignty; it does not endorse this proposal (The Tulalip Tribes, n.d.). Participation should be negotiated with the authorities and entities they identify. Cultural representation, business contracting and research approval may involve different responsibilities, and none is inferred from a supplied concept image.",
+        "CARE frames data governance through collective benefit, authority to control, responsibility and ethics (Carroll et al., 2020). Applied here as a project proposal, this means the relevant tribal partner determines permitted cultural material, publication conditions, collective-data uses and review or withdrawal processes. Individual app consent cannot substitute for that authority.",
+        "Each cultural listing should have an identified authorized publisher, provenance, usage permissions and approval status. The prototype must not invent ceremonies, restricted knowledge, permission to photograph or generalized Indigenous authenticity. Intertribal events require the agreement of participating nations, with names, protocols and benefit arrangements represented distinctly.",
+        "Proposed commercial agreements should specify listing visibility, commission, reward reimbursement, settlement timing, cancellations and dispute resolution. Community benefit can be evaluated through measures selected by the partner, such as participating businesses, paid local work or retained revenue. No universal community-benefit metric should be imposed as a condition of joining.",
+        "A production data agreement should distinguish personal booking data, supplier operations, cultural intellectual property and collective or aggregate visitor data. Restrict access by purpose, minimize retention, and permit audit and agreed deletion. Do not infer tribal affiliation from names, browsing or location, and do not expose an individual's access requirements to group participants by default."
+      ]
+    },
+    {
+      "id": "access",
+      "title": "9. Accessibility, privacy and trust",
+      "evidenceRefs": [
+        "E09"
+      ],
+      "paragraphs": [
+        "WCAG 2.2 AA is the evaluation target, not a certification claim (World Wide Web Consortium, 2024). Checks cover keyboard paths, visible focus, semantic controls, contrast, reflow, target sizes, error messages, reduced motion and complete checkout flows. Persistent navigation and modal dialogs require particular attention to focus order and obstruction.",
+        "Access preferences must be specific: step-free access, companion seating, mobility-device space, captions, sensory considerations or dietary needs are different requirements. A single accessible badge cannot guarantee all of them. Availability should remain subject to supplier verification, with a contact route for requirements the system cannot confirm.",
+        "The demonstration stores sample state locally and provides reset. Operational accounts would require authentication, access control, deletion and retention policies. Payment data should be handled through an appropriate provider rather than stored in application state. AI prompts must avoid exposing payment credentials or unnecessary health details.",
+        "Trust relies on clear transaction state: proposed, held, purchased, canceled and refunded are different. An offline itinerary may be useful while inventory and transactions are unavailable. The screen should show stale or disconnected status and prevent duplicate commitments when connectivity returns."
+      ]
+    },
+    {
+      "id": "media",
+      "title": "10. Live media and service feasibility",
+      "evidenceRefs": [
+        "E20"
+      ],
+      "paragraphs": [
+        "Published League Pass restrictions demonstrate that viewing rights depend on context and territory (NBA Help Center, n.d.). They do not confer distribution rights on this project. Live games, multi-camera replay, highlights, statistics and captions require separate technical and rights assessments.",
+        "The prototype should use synthetic replay controls and sample statistics. Its key question is whether visitors can find and operate the experience, not whether a league feed has been secured. Venue maps, food and merchandise ordering also depend on supplier systems, fulfillment rules and operational staffing.",
+        "An operational pilot should specify entitlement checks, geofencing where required, media accessibility, latency, content protection and fallbacks. A rights failure must leave tickets, venue help and travel usable. Customer support cannot assume responsibility ends at the edge of an embedded supplier service."
+      ]
+    },
+    {
+      "id": "method",
+      "title": "11. Proposed empirical methodology",
+      "evidenceRefs": [],
+      "paragraphs": [
+        "This is a design-science artifact and a research protocol, not an empirical results paper. The initial desk review is targeted and transparent rather than exhaustive or systematic. The next phase begins with partner discovery and university ethics review where appropriate, followed by visitor interviews, formative usability sessions and a controlled comparative study.",
+        "Recruit across the eight journey types while allowing participants to have overlapping needs. Indigenous participation and interpretation should be arranged with relevant partners, with fair compensation and agreed handling of findings. Include disabled participants using their own assistive technologies and device settings. Do not use persona names as substitutes for representative recruitment.",
+        "For formative work, propose 24 participants completing selected tasks across the three concepts in counterbalanced order. This number is a design choice for qualitative breadth, not a power calculation. Record task completion, major errors, assistance, time and an after-task ease response. Follow with interviews about cost comprehension, reward rules and trust. Analyze recurring problems and disconfirming cases.",
+        "A navigation study compares the original tabs with the Book alternative using the same labels, tasks and content. First-click tasks include finding a ticket, reserving a hotel, getting to the venue, and viewing a replay. Preregister primary outcomes and exclusion rules. Conduct a power analysis after collecting baseline variance; do not claim a statistically reliable advantage from a small convenience sample.",
+        "A later operational field pilot can randomize eligible parties to ordinary discovery versus optional integrated planning or a transparent reward offer. Use assignment-to-treatment analysis and account for shared-party decisions. Predefine attendance windows and independently verify authorized redemption records. Avoid presenting self-reported intent as completed cross-destination travel.",
+        "Collect behavioral telemetry only with appropriate consent and agreements. A suggested event dictionary includes event_view, ticket_selection, checkout_review, purchase_confirmed, plan_item_added, route_selected, reward_unlocked, reward_redeemed and help_requested. Never include payment credentials or unrestricted prompt text in analytics. Report missing data, withdrawals, device effects and uncertainty.",
+        "Heatmaps or click maps may be generated from a later consented study, with form and personal-data masking. They would describe tested participants and tasks, not all users. Gaze measurement would require suitable hardware, calibration and an explicit protocol. No synthetic heatmap should be labeled as measured attention."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "12. Limitations and next research contribution",
+      "evidenceRefs": [],
+      "paragraphs": [
+        "The prototype contains fictional inventory and simulated transactions. Browser-local collaboration does not demonstrate multi-user synchronization, reconciliation or provider availability. A static deployment does not establish payment security, operational resilience, live media delivery or enterprise access governance.",
+        "The current source set combines foundational theory, published usability research and official feature descriptions. It is not a comprehensive review of every destination app and contains no proprietary competitor analytics. Product capabilities and transit conditions may change after the retrieval date.",
+        "Expert design scores can make tradeoffs explicit but cannot predict conversion. Their weights represent project priorities and should be revisited with stakeholders. University publication would require an appropriate venue, a fuller literature-search method, ethics approval where needed and transparent empirical evaluation.",
+        "The defensible contribution at this stage is a concrete, testable design linking visitor control, truthful rewards and complete mobility across distinct destinations. Further work should investigate when this integration produces additional attendance and shared economic benefit, and when travel constraints or visitor preferences make a single-destination visit the better outcome."
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Local basketball fan",
+      "motivation": "Attend a Bellevue game with minimal planning effort.",
+      "immediateNeeds": "Two seats together, a clear all-in total, rail arrival and a viable return.",
+      "journey": [
+        "Filter Bellevue sports by date and price.",
+        "Select two fictional tickets and review charges.",
+        "Choose optional rail guidance; decline hotel and meal additions.",
+        "Confirm the demo purchase and save the tickets.",
+        "Use Navigate for the station leg and My Plans for the return.",
+        "View qualifying-ticket progress and an optional Tulalip offer."
+      ],
+      "bookingFriction": "Unexpected fees, forced packages or confusing ticket versus transit credentials.",
+      "navigationBehavior": "Explore → event → checkout → My Plans; Navigate before departure; Live inside the venue.",
+      "rewardMotivation": "A concrete admission that fits another date, not a reason to buy unwanted tickets.",
+      "abandonment": "Checkout suddenly requires an account or transport appears mandatory.",
+      "accessNeeds": "One-handed use, readable tickets in low light, clear labels and offline saved plans.",
+      "crossDestination": "A later qualifying event, offered after the primary purchase.",
+      "repeatVisit": "Hypothesis: convenience and useful fulfillment support return; no probability estimated.",
+      "improvement": "Keep the primary ticket action available; measure ticket-only completion, price comprehension and support requests."
+    },
+    {
+      "id": "P2",
+      "name": "Family visiting the proposed water park",
+      "motivation": "A manageable day for adults and children.",
+      "immediateNeeds": "Age suitability, group price, changing facilities, meal options and rest breaks.",
+      "journey": [
+        "Filter Tulalip family activities by chosen date.",
+        "Enter adults and children separately.",
+        "Inspect fictional capacity, access information and restrictions.",
+        "Compare a day visit with an optional overnight stay.",
+        "Add transport and meal times without compressing rest periods.",
+        "Purchase selected items and share the sample plan.",
+        "Review a Bellevue family event only if the schedule is comfortable."
+      ],
+      "bookingFriction": "Per-person prices hiding family cost, unclear age bands or incompatible room occupancy.",
+      "navigationBehavior": "Explore, package comparison and My Plans; secondary menu for dining and hotel details.",
+      "rewardMotivation": "A useful child admission or later family experience with visible restrictions.",
+      "abandonment": "Critical accessibility or age information appears only after payment.",
+      "accessNeeds": "Stroller and mobility-device information, plain language, flexible pacing and dietary details.",
+      "crossDestination": "Optional separate-day Bellevue visit rather than a pressured same-day transfer.",
+      "repeatVisit": "Depends on fulfillment, affordability and family fit; unmeasured.",
+      "improvement": "Show party total and restrictions before checkout; measure errors in party composition and condition recall."
+    },
+    {
+      "id": "P3",
+      "name": "Tourist combining both destinations",
+      "motivation": "Build a coherent weekend without managing many disconnected bookings.",
+      "immediateNeeds": "Dates, room nights, total budget, reliable transfers and attraction timing.",
+      "journey": [
+        "Describe a two-day trip to the planner.",
+        "Supply party size, budget and arrival location.",
+        "Compare feasible packages and remove an unwanted suggestion.",
+        "Add hotel, dinner, Bellevue event and a later Tulalip activity.",
+        "Review separate suppliers and estimated external costs.",
+        "Confirm the demo basket and inspect itinerary conflicts.",
+        "Use the visit companion for each next step."
+      ],
+      "bookingFriction": "Mixed policies, a hotel far from the next activity or understated transport cost.",
+      "navigationBehavior": "AI and manual editing alternate; My Plans becomes the primary visit view.",
+      "rewardMotivation": "A relevant benefit already compatible with the trip.",
+      "abandonment": "The assistant offers an attractive but impossible schedule or omits return travel.",
+      "accessNeeds": "Clear Pacific Time, familiar currency labels, readable directions and human help.",
+      "crossDestination": "Central to the journey, conditional on realistic road travel.",
+      "repeatVisit": "Potentially supported by saved preferences; not forecast.",
+      "improvement": "Measure complete-plan rate, conflicts detected, omitted costs and trust calibration."
+    },
+    {
+      "id": "P4",
+      "name": "Indigenous visitor attending an intertribal event",
+      "motivation": "Attend an appropriately represented event and connect with participants.",
+      "immediateNeeds": "Authorized host information, attendance rules, schedule and family/group logistics.",
+      "journey": [
+        "Find the clearly labeled illustrative intertribal listing.",
+        "Inspect host approval status and participation information.",
+        "Choose only publicly offered activities.",
+        "Coordinate a group plan and transport.",
+        "Access event guidance and support.",
+        "Consider unrelated Bellevue entertainment only if desired."
+      ],
+      "bookingFriction": "Generic cultural descriptions, uncertain host authority or treating every activity as a purchasable attraction.",
+      "navigationBehavior": "Event details and visitor guidance precede purchase.",
+      "rewardMotivation": "Practical benefit with no pressure to exchange cultural participation for commercial rewards.",
+      "abandonment": "Unapproved imagery or implied access to restricted activities.",
+      "accessNeeds": "Language and elder-access needs must be asked about, not presumed; low-bandwidth alternatives.",
+      "crossDestination": "Voluntary and secondary to the purpose of the visit.",
+      "repeatVisit": "Depends on partner-defined appropriateness and service quality; no inferred propensity.",
+      "improvement": "Partner review of content and consent; assess participant-reported representation and clarity using agreed methods."
+    },
+    {
+      "id": "P5",
+      "name": "VIP customer",
+      "motivation": "A reliable premium experience for guests.",
+      "immediateNeeds": "Specific inclusions, seating, hospitality timing, room type and concierge support.",
+      "journey": [
+        "Open the prominent VIP entry.",
+        "Compare itemized premium options.",
+        "Select guests, room and dining preferences.",
+        "Review accessible seating and transport details.",
+        "Confirm the chosen demo package.",
+        "Use My Plans for guest booking status and concierge contact.",
+        "Inspect transparent qualifying spend and benefits."
+      ],
+      "bookingFriction": "Vague exclusivity claims or uncertainty over what is included.",
+      "navigationBehavior": "VIP detail → tailored plan → review; Live and services during the event.",
+      "rewardMotivation": "Authorized hospitality with clear redemption value.",
+      "abandonment": "Promises of unapproved player access or hidden minimum spend.",
+      "accessNeeds": "Same inclusive requirements as all visitors; premium purchase does not replace access provision.",
+      "crossDestination": "Optional premium dining or second event if travel timing works.",
+      "repeatVisit": "Hypothesis depends on consistency, privacy and problem resolution.",
+      "improvement": "Measure inclusion comprehension, service issue resolution and margin after fulfillment."
+    },
+    {
+      "id": "P6",
+      "name": "Visitor with accessibility requirements",
+      "motivation": "Participate confidently with appropriate access and autonomy.",
+      "immediateNeeds": "Verified, specific information about the entire journey.",
+      "journey": [
+        "Set relevant access preferences without a diagnosis.",
+        "Inspect seating and companion options.",
+        "Compare a step-free route and an accessible vehicle alternative.",
+        "Identify uncertain venue or route details and contact support.",
+        "Save the plan with additional transfer time.",
+        "Use accessible tickets, captions and venue guidance.",
+        "Report a barrier and request an alternative."
+      ],
+      "bookingFriction": "Generic accessible badges, inaccessible seat maps or forced telephone-only booking.",
+      "navigationBehavior": "Can use keyboard/screen reader through all primary tasks.",
+      "rewardMotivation": "Benefits usable with the same access requirements.",
+      "abandonment": "Seat purchase completes while necessary companion or transport accommodation is unavailable.",
+      "accessNeeds": "Individual requirements vary; test with actual users and assistive technologies.",
+      "crossDestination": "Only if both destination and transport requirements can be met.",
+      "repeatVisit": "Depends on the accuracy and delivery of access information.",
+      "improvement": "Measure independent completion and unresolved barriers; supplier verification must precede real guarantees."
+    },
+    {
+      "id": "P7",
+      "name": "Business traveler with limited time",
+      "motivation": "Fit an event or meal around work commitments.",
+      "immediateNeeds": "End times, proximity, cancellation terms and a hard arrival/departure limit.",
+      "journey": [
+        "Enter the available time window.",
+        "Select nearby Bellevue options.",
+        "Compare ticket-only with a short dinner package.",
+        "Reject suggestions that conflict with a meeting.",
+        "Confirm a demo booking and export or copy itinerary information where supported.",
+        "Receive the next departure reminder."
+      ],
+      "bookingFriction": "Long recommendations, repeated personal details or uncertain end times.",
+      "navigationBehavior": "Search and quick purchase first; My Plans for logistics.",
+      "rewardMotivation": "Future usable benefits rather than same-trip complexity.",
+      "abandonment": "The app insists on a multi-destination trip.",
+      "accessNeeds": "Efficient keyboard use, concise information, quiet notifications.",
+      "crossDestination": "A future visit or a free day, not an assumed same-evening journey.",
+      "repeatVisit": "Potentially linked to future work travel; unmeasured.",
+      "improvement": "Measure time to find a feasible option and number of irrelevant suggestions rejected."
+    },
+    {
+      "id": "P8",
+      "name": "Budget-conscious visitor",
+      "motivation": "Enjoy events within an explicit whole-trip spending limit.",
+      "immediateNeeds": "Total cost, eligible offers, transport cost and clear reward terms.",
+      "journey": [
+        "Choose a budget and flexible dates.",
+        "Compare discounted event options and rail travel.",
+        "Inspect exclusions and validity before selecting a promotion.",
+        "Buy only needed tickets.",
+        "Review purchase and attendance trackers separately.",
+        "Redeem an eligible benefit against available inventory.",
+        "See how cancellation changes progress."
+      ],
+      "bookingFriction": "Savings anchored to unavailable prices, points conversions or rewards with costly hidden conditions.",
+      "navigationBehavior": "Explore filters, Rewards and Navigate; package comparison only if it saves total cost.",
+      "rewardMotivation": "An understandable admission or transport benefit with no conversion arithmetic.",
+      "abandonment": "A free reward requires disproportionate extra spending.",
+      "accessNeeds": "Plain-language conditions, low-data pages and inclusive reduced-fare information.",
+      "crossDestination": "Only when incremental travel and food costs remain affordable.",
+      "repeatVisit": "A hypothesis tied to real value; should not be inferred from reward clicks.",
+      "improvement": "Measure total-cost accuracy, eligibility comprehension, redemption failures and net cost to the visitor."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Integrated itinerary assistance reduces task completion time and planning errors relative to separate booking links.",
+      "primaryMeasure": "Completed feasible itinerary; time on task; omitted-cost and timing-error counts.",
+      "caveat": "Prototype comparison measures task performance, not actual travel."
+    },
+    {
+      "id": "H2",
+      "statement": "A relevant, transparent cross-destination reward increases verified second-destination attendance among eligible visitors.",
+      "primaryMeasure": "Attendance at both destinations within a predefined 90-day pilot window.",
+      "caveat": "Requires real partner records, random assignment and a sample-size calculation."
+    },
+    {
+      "id": "H3",
+      "statement": "Full-trip prices and rail guidance improve budget comprehension and transport confidence.",
+      "primaryMeasure": "Correct total-cost and fare-coverage answers; selected and completed mode.",
+      "caveat": "Mode selection in a demo is an intention."
+    },
+    {
+      "id": "H4",
+      "statement": "Optional AI assistance improves planning ease without reducing user control or trust calibration.",
+      "primaryMeasure": "Task ease, inappropriate recommendation acceptance and awareness of simulation.",
+      "caveat": "Self-report alone is insufficient; include observed corrections."
+    },
+    {
+      "id": "H5",
+      "statement": "Clear rewards and reliable service recovery support repeat attendance and satisfaction.",
+      "primaryMeasure": "90/180-day repeat attendance, redemption completion and satisfaction.",
+      "caveat": "Control for prior loyalty, event preference and offer eligibility."
+    }
+  ],
+  "methodology": {
+    "design": "Sequential mixed methods: desk research; consented co-design; formative usability; counterbalanced concept/navigation comparison; separately approved field pilot.",
+    "completed": "Targeted source review and proposed artifact design only. No actual participants, heatmaps or operational outcomes.",
+    "formativeSample": "Proposed 24 visitors across eight overlapping journey types, selected for diversity of tasks, access needs and devices; not a statistically powered efficacy sample.",
+    "instruments": [
+      "Task scripts with consistent fictional inventory",
+      "First-click and tree-test prompts",
+      "Task completion/error/time logs",
+      "After-task ease ratings and post-session interview",
+      "Cost and reward comprehension checks",
+      "Accessibility observation with participant-owned assistive technology"
+    ],
+    "analysis": "Report descriptive task results, qualitative themes and failures by journey. For any hypothesis test, preregister outcomes and power analysis, report confidence intervals, account for repeated measures and party-level assignment.",
+    "ethics": "Obtain required university review, individual informed consent and relevant tribal research/data agreements. Compensate participants, permit withdrawal, minimize identifiers and agree retention and publication.",
+    "pilotMetrics": [
+      "Verified cross-destination visits / eligible visitors",
+      "Hotel nights and length of stay",
+      "Net platform contribution after refunds, rewards and support",
+      "Supplier participation and partner-defined retained benefit",
+      "Transit uptake and missed connections",
+      "Reward redemption and failure rates",
+      "Satisfaction, return attendance and opt-in retention"
+    ]
+  },
+  "navigationDecision": {
+    "selected": [
+      "Explore",
+      "My Plans",
+      "Live",
+      "Rewards",
+      "Navigate"
+    ],
+    "alternative": [
+      "Explore",
+      "My Plans",
+      "Book",
+      "Rewards",
+      "Navigate"
+    ],
+    "status": "Reasoned prototype default; not a tested winner.",
+    "reason": "Inventory-specific purchase actions already exist in Explore, while Live supports active-event services. Keep both entry points to AI and VIP visible in content. Account remains secondary.",
+    "validation": "Counterbalanced first-click, tree and usability tests with identical content; compare discovery of tickets, hotels, travel and replay."
+  },
+  "designEvaluation": {
+    "status": "Rubric for expert evaluation of rendered concepts; no measured user outcomes.",
+    "scale": "Score each criterion from 1 (major task failure) to 5 (clear complete path); weighted total = sum(weight × score)/100.",
+    "criteria": [
+      {
+        "name": "Usability and booking efficiency",
+        "weight": 25
+      },
+      {
+        "name": "Discovery and cross-destination potential",
+        "weight": 20
+      },
+      {
+        "name": "Accessibility",
+        "weight": 15
+      },
+      {
+        "name": "Visual hierarchy and cognitive load",
+        "weight": 15
+      },
+      {
+        "name": "Rewards and VIP discoverability",
+        "weight": 10
+      },
+      {
+        "name": "Commercial and technical feasibility",
+        "weight": 10
+      },
+      {
+        "name": "Research defensibility",
+        "weight": 5
+      }
+    ],
+    "concepts": [
+      {
+        "id": "A",
+        "name": "Premium Entertainment",
+        "strength": "Strong event salience and premium hospitality framing.",
+        "risk": "Cinematic content can push practical details below the first viewport."
+      },
+      {
+        "id": "B",
+        "name": "Connected Destinations",
+        "strength": "Clear trip relationships and balanced destination discovery.",
+        "risk": "Planning controls can slow a local visitor's ticket-only path."
+      },
+      {
+        "id": "C",
+        "name": "Personal Destination Companion",
+        "strength": "Next-action clarity for returning or active visitors.",
+        "risk": "An empty new-user state or excessive inference can weaken discovery."
+      }
+    ],
+    "rule": "Document actual screen evidence beside each rating. Do not convert expert scores into projected booking uplift. Compare weights in a sensitivity analysis before choosing a direction."
+  },
+  "governance": {
+    "status": "Proposed requirements for negotiation; no consultation or consent asserted.",
+    "decisionRights": [
+      "Tribal authorities identify permitted cultural publishers and review processes.",
+      "Each operator controls its inventory, fulfillment and cancellation policies.",
+      "Visitors control preferences, purchases, alert consent and data-sharing choices.",
+      "A joint oversight arrangement defines escalation, settlement and operational accountability."
+    ],
+    "contentControls": [
+      "Track provenance and approval per cultural asset.",
+      "Distinguish proposed renderings from existing facilities.",
+      "Use nation-specific names approved by the relevant publisher.",
+      "Do not infer permission for restricted events, imagery or knowledge."
+    ],
+    "dataControls": [
+      "Separate personal, supplier and collective data purposes.",
+      "Limit access and retention; record approved research and commercial uses.",
+      "Provide individual deletion and partner audit mechanisms.",
+      "Do not infer Indigenous identity or sell cultural data."
+    ],
+    "commercialControls": [
+      "Negotiated commissions and reimbursement",
+      "Agreed settlement and dispute process",
+      "Partner-defined community-benefit reporting",
+      "No forced participation in promotions or cross-selling"
+    ]
+  },
+  "commercialAssumptions": {
+    "status": "Illustrative scenario inputs; no contracted rates, forecast, valuation or investment advice.",
+    "currency": "USD",
+    "period": "Per completed illustrative basket; monthly scenario may scale by specified basket volume.",
+    "inputs": [
+      {
+        "key": "basketGrossValue",
+        "value": 420,
+        "unit": "USD",
+        "meaning": "Example sum of supplier sales, excluding refundable deposits."
+      },
+      {
+        "key": "platformRevenueRate",
+        "value": 0.08,
+        "unit": "fraction",
+        "meaning": "Blended illustrative platform revenue; not a ticket markup claim."
+      },
+      {
+        "key": "paymentCostRate",
+        "value": 0.025,
+        "unit": "fraction",
+        "meaning": "Example processing burden; responsibility depends on settlement model."
+      },
+      {
+        "key": "paymentFixedCost",
+        "value": 0.3,
+        "unit": "USD per basket",
+        "meaning": "Illustrative transaction cost."
+      },
+      {
+        "key": "supportCost",
+        "value": 3.5,
+        "unit": "USD per basket",
+        "meaning": "Example variable fulfillment and support burden."
+      },
+      {
+        "key": "qualifyingShare",
+        "value": 0.2,
+        "unit": "fraction",
+        "meaning": "Illustrative share of completed baskets creating a benefit."
+      },
+      {
+        "key": "redemptionRate",
+        "value": 0.5,
+        "unit": "fraction",
+        "meaning": "Illustrative redeemed share of earned benefits."
+      },
+      {
+        "key": "rewardReimbursement",
+        "value": 18,
+        "unit": "USD per redeemed benefit",
+        "meaning": "Example contracted settlement cost, not retail face value."
+      },
+      {
+        "key": "partnerRewardContribution",
+        "value": 0,
+        "unit": "USD per redeemed benefit",
+        "meaning": "Illustrative supplier/sponsor funding."
+      },
+      {
+        "key": "refundReserveRate",
+        "value": 0.01,
+        "unit": "fraction of gross value",
+        "meaning": "Simplified illustrative reserve; no tax or accounting conclusion."
+      }
+    ],
+    "formulae": [
+      "Platform revenue = gross basket value × revenue rate.",
+      "Processing = gross basket value × payment cost rate + fixed payment cost.",
+      "Net reward expense = qualifying share × redemption rate × (reimbursement − partner contribution).",
+      "Variable contribution = platform revenue − processing − support − net reward expense − refund reserve.",
+      "Monthly operating result = completed baskets × variable contribution − fixed monthly operating cost."
+    ],
+    "baselineArithmetic": {
+      "platformRevenue": 33.6,
+      "processing": 10.8,
+      "netRewardExpense": 1.8,
+      "refundReserve": 4.2,
+      "variableContribution": 13.3
+    },
+    "sensitivity": "Vary blended take rate 5%–12%, redemption 30%–90%, reward reimbursement $12–$30, support $2–$7, supplier contribution $0–$9 and volume separately. Identify zero-contribution boundaries rather than assuming scale solves negative unit economics.",
+    "vip": "Test $10,000 qualifying spend with a separately budgeted benefit and period. Compare resulting margin after fulfillment; do not assume all gross spend is retained platform revenue.",
+    "exclusions": "Tax determination, card-network requirements, chargeback forecasting, capital costs, arena feasibility, franchise acquisition, working-capital timing and contracted settlement terms require separate professional and partner work."
+  },
+  "roadmap": [
+    {
+      "phase": "0 — Concept demonstration",
+      "deliverables": "Three designs, browser-local working journeys, evidence register, illustrative commercial model and research protocol.",
+      "exitCriteria": "Consistent state, transparent simulated content, complete critical paths and documented validation limits."
+    },
+    {
+      "phase": "1 — Co-design and agreements",
+      "deliverables": "Visitor research; tribal and supplier participation terms; cultural review; inventory and transit data access; payment and support responsibilities.",
+      "exitCriteria": "Authorized pilot scope, data governance, rights and approved content."
+    },
+    {
+      "phase": "2 — Limited operational pilot",
+      "deliverables": "Authenticated accounts, provider sandbox-to-live booking, payment confirmation and refunds, availability reconciliation, alerts, accessible support.",
+      "exitCriteria": "End-to-end supplier acceptance, monitoring, incident handling, refund tests and accessibility review."
+    },
+    {
+      "phase": "3 — Measured expansion",
+      "deliverables": "Controlled offer evaluation, multi-user collaboration, validated recommendations and any separately licensed media.",
+      "exitCriteria": "Evidence of visitor value, sustainable contribution, partner benefit and acceptable failure rates."
+    }
+  ],
+  "referenceIds": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12",
+    "E13",
+    "E14",
+    "E15",
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E20",
+    "E21",
+    "E22"
+  ]
+}

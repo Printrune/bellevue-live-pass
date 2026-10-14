@@ -1,0 +1,25 @@
+{
+  "offers": 19,
+  "uniqueImages": 19,
+  "uniqueContentHashes": 19,
+  "checks": [
+    "a / 1440",
+    "a / 768",
+    "a / 390",
+    "b / 1440",
+    "b / 768",
+    "b / 390",
+    "c / 1440",
+    "c / 768",
+    "c / 390",
+    "Moto detail",
+    "Services / Hotel",
+    "Services / Dining",
+    "Services / Food",
+    "Services / Transport",
+    "Services / Parking",
+    "Services / EV charging",
+    "Services / Retail"
+  ],
+  "errors": []
+}

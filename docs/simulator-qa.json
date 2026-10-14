@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Top-right link opens real mobile app at 390px without recursive simulator controls",
+    "Ticket checkout works inside phone and leaves main-site data unchanged",
+    "All three phone sizes resize the active viewport without losing page or booking",
+    "All journey shortcuts load, including AI planner and transit disruption control",
+    "Reset removes simulator bookings while preserving main-site data",
+    "Desktop, tablet and mobile host layouts have no horizontal overflow; actual phone viewport stays 390px",
+    "Return-to-website control and direct simulator link both work"
+  ],
+  "errors": []
+}

@@ -1,0 +1,98 @@
+{
+  "mode": "Built-in image_gen",
+  "date": "2026-10-14",
+  "style": "Use case: stylized-concept. Asset type: premium entertainment-destination website photo, landscape 3:2. Cinematic photoreal architectural/event concept, very polished, midnight navy shadows, electric blue highlights, warm metallic gold and amber lighting, rich realistic textures, inviting energy, consistent with a luxury Bellevue Live sports and entertainment district. Compose the key subject centrally so square and wide crops work. Full bleed single scene, no collage, no text, no lettering, no logos, no watermark. This is an imagined proposed venue, not documentation.",
+  "assets": [
+    {
+      "name": "moto",
+      "prompt": "Dynamic indoor motocross showcase: an adult rider on a real off-road MOTORCYCLE with engine, thick knobby tires, full-face helmet and full protective gear, airborne over a sculpted dirt jump. Enormous indoor arena with crowd safely behind barriers, blue and gold spotlights and dramatic dust, low three-quarter sports-camera view. It must be a motorcycle, not a bicycle.",
+      "output": "public/assets/moto.webp"
+    },
+    {
+      "name": "waterpark",
+      "prompt": "A spectacular indoor family water park beneath a soaring glass roof at blue hour. Deep turquoise lazy river, sweeping blue and gold twisting enclosed slides, warm-lit cabanas, palms and Pacific Northwest timber architecture. Small families in the mid-distance enjoying shallow pools, lifeguard visible, wide elevated architectural view.",
+      "output": "public/assets/waterpark.webp"
+    },
+    {
+      "name": "concert",
+      "prompt": "A live concert inside a spectacular modern arena, photographed from the back of the standing audience toward the stage. A small band seen in silhouette, brilliant electric-blue laser fans and golden spotlights, thousands of tiny audience lights, grand scale and authentic concert atmosphere. No basketball court.",
+      "output": "public/assets/concert.webp"
+    },
+    {
+      "name": "family",
+      "prompt": "An all-ages evening science-and-performance festival in a modern indoor entertainment pavilion. Families watching a suspended glowing kinetic sculpture of illuminated orbs and ribbon-like light forms, interactive luminous floor tiles, adult performers at a small stage. A sense of wonder and movement. Navy, cobalt and warm gold, candid wide view, no culturally specific motifs.",
+      "output": "public/assets/family.webp"
+    },
+    {
+      "name": "community-game",
+      "prompt": "A community basketball evening in a modern premium arena, viewed from courtside near the baseline. Adult players in plain navy, white and gold uniforms warming up and shooting, families and fans gathering in the lower bowl, warm amber concourse and blue rim lights. Main subject a player shooting a basketball. No team or league logos. Distinct intimate low baseline camera angle.",
+      "output": "public/assets/community-game.webp"
+    },
+    {
+      "name": "weekend-game",
+      "prompt": "A basketball weekend game at a premium modern arena photographed from high in a corner of the seating bowl. The gleaming maple court lies on a strong diagonal, tiny adult players in plain navy and white uniforms, vivid blue and gold ribbon lights and packed seating. Distinct wide bird's-eye corner composition, no readable text or logos.",
+      "output": "public/assets/weekend-game.webp"
+    },
+    {
+      "name": "resort",
+      "prompt": "A luxurious Pacific Northwest resort guest suite at twilight. King bed with ivory linen, navy velvet accents, warm golden pendants, natural cedar, stone fireplace, floor-to-ceiling glass looking out at evergreen hills, generous seating nook. Tasteful modern hospitality, realistic architectural photography, no cultural patterns or branding.",
+      "output": "public/assets/resort.webp"
+    },
+    {
+      "name": "lunch",
+      "prompt": "A modern Pacific Northwest destination restaurant at lunchtime, intimate table-level view of a beautifully plated seasonal vegetable and grain lunch with bright produce, artisan bread and sparkling water. Sunlight through tall windows, cedar and brass interior, soft blue upholstered seats, small blurred groups of diners. No cultural symbols.",
+      "output": "public/assets/lunch.webp"
+    },
+    {
+      "name": "rail",
+      "prompt": "A sleek blue-and-white light rail train approaching an urban Eastside station at twilight, seen from the platform at a dynamic three-quarter angle. Bellevue-like glass towers in the background, blue illuminated platform edges and warm golden canopy lights, a few passengers waiting behind the safety line. Photoreal concept transit scene, no invented text, no logos.",
+      "output": "public/assets/rail.webp"
+    },
+    {
+      "name": "coach",
+      "prompt": "A premium modern navy and silver intercity coach arriving outside an elegant Pacific Northwest resort at dusk. Warm gold headlights and interior lighting, evergreen trees, glass-and-timber entrance, passengers with small weekend bags waiting on the sidewalk. Full large bus clearly visible from a three-quarter front angle. No rail tracks or tram.",
+      "output": "public/assets/coach.webp"
+    },
+    {
+      "name": "parking",
+      "prompt": "A pristine contemporary arena parking garage arrival at blue hour. Wide vehicle lanes, clear pedestrian walkway, navy structural columns, gold ceiling light strips, blue guidance lights over empty bays, a few generic parked cars and a luminous exit toward a modern entertainment district. Ground-level architectural view. No EV chargers, no text.",
+      "output": "public/assets/parking.webp"
+    },
+    {
+      "name": "ev",
+      "prompt": "An elegant EV charging court outside a contemporary Pacific Northwest entertainment district at dusk. A blue electric crossover visibly plugged into a modern charger, two additional chargers, planted islands, warm golden pathway lighting, cobalt reflections on wet paving. Close three-quarter view emphasizing connected charging cable, no brand logos, no text.",
+      "output": "public/assets/ev.webp"
+    },
+    {
+      "name": "food",
+      "prompt": "Premium arena food pickup counter close-up: a delicious glazed salmon rice bowl with fresh greens and a cold citrus drink on a dark tray, ready at a warm-lit modern concession counter. Navy tile and brass trim, blurred blue-and-gold stadium interior behind, inviting appetizing food photography. No packaging logos, no visible menu text.",
+      "output": "public/assets/food.webp"
+    },
+    {
+      "name": "hotel-arrival",
+      "prompt": "A grand contemporary city hotel entrance at golden blue hour, eye-level from an elegant porte-cochere. Glass doors, tall warm-lit brass and cedar columns, blue reflections on polished stone, luggage beside a guest couple in the distance, Bellevue-like tower skyline beyond. Distinct exterior arrival photo, no logos or text.",
+      "output": "public/assets/hotel-arrival.webp"
+    },
+    {
+      "name": "dining-lounge",
+      "prompt": "An upscale dining lounge seen from a high three-quarter angle, curved navy booths, glowing brass pendants, richly set tables, chefs at an open kitchen, sparkling city lights beyond tall glass. Cinematic warm-gold restaurant evening, sophisticated but lively, people small in the composition. No text.",
+      "output": "public/assets/dining-lounge.webp"
+    },
+    {
+      "name": "vip-terrace",
+      "prompt": "An exclusive rooftop hospitality terrace overlooking an illuminated modern arena at twilight. Navy velvet lounge seating, golden table lamps, elegant small groups of adult guests, glass balustrade, Bellevue-like skyline, luxurious inviting atmosphere. Architecture and view are dominant. No logos or text.",
+      "output": "public/assets/vip-terrace.webp"
+    },
+    {
+      "name": "arts-gathering",
+      "prompt": "A welcoming contemporary community arts workshop in a bright cedar-and-glass civic pavilion. Adults and children making abstract colorful paper sculptures and painting geometric canvases around shared tables, display plinths, warm gold light and cobalt seating. Pacific Northwest greenery outside. Generic art activities only: no tribal regalia, sacred objects, traditional indigenous patterns, or claims of cultural authenticity.",
+      "output": "public/assets/arts-gathering.webp"
+    },
+    {
+      "name": "waterpark-weekend",
+      "prompt": "A serene resort recreation atrium at sunset viewed from a waterside cabana: a gently curving turquoise pool, blue enclosed waterslide in the far background, soaring timber-and-glass roof, plush navy lounge chairs, amber lanterns, a few families far away. Distinct ground-level relaxation composition, highly realistic architectural concept.",
+      "output": "public/assets/waterpark-weekend.webp"
+    }
+  ],
+  "usage": "Each offer has its own image. Reuse is limited to the same offer across its card, detail, itinerary, and live companion, plus the shared brand logo."
+}

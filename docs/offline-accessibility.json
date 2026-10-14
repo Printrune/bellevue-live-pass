@@ -1,0 +1,38 @@
+{
+  "offlineReload": true,
+  "savedStateRetained": true,
+  "reducedMotion": true,
+  "cache": {
+    "keys": [
+      "bellevue-pass-44c6ef5c43"
+    ],
+    "entries": 24
+  },
+  "contrast": [
+    {
+      "name": "Premium primary",
+      "ratio": 16.691090157756893
+    },
+    {
+      "name": "Premium secondary",
+      "ratio": 8.521741239428774
+    },
+    {
+      "name": "Gold button",
+      "ratio": 10.126623226546167
+    },
+    {
+      "name": "Blue button",
+      "ratio": 5.601536519390372
+    },
+    {
+      "name": "Connected primary",
+      "ratio": 13.218138775827006
+    },
+    {
+      "name": "Connected secondary",
+      "ratio": 4.876459121464249
+    }
+  ],
+  "limits": "Selected solid-color pairs only. No screen-reader/user compliance certification."
+}

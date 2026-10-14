@@ -1,0 +1,12 @@
+{
+  "base": "http://127.0.0.1:5180/bellevue-live-pass/",
+  "checks": [
+    "Home, every rendered image, icons, manifest, and service worker load under the repository path",
+    "Booking and saved itinerary survive an offline page reload at the nested URL",
+    "App simulator opens offline and its iframe retains the repository path and mobile viewport",
+    "Evidence register and all three deliverable download links resolve under the repository path",
+    "No failed or escaped same-origin asset requests across the tested journeys"
+  ],
+  "errors": [],
+  "badRequests": []
+}

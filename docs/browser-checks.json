@@ -1,0 +1,198 @@
+{
+  "checks": [
+    "Ticket-only: 3 tickets, $285, confirmation and persistence",
+    "Earned reward redeemed without payment",
+    "Group participant and activity vote persisted independently",
+    "Refund cancels ticket and recalculates reward qualification",
+    "AI simulation creates 6 itemized proposed components for 4, including separate coach",
+    "Coordinated hotel, dinner, game, water park, rail and coach checkout",
+    "Transportation disruption alternative visible",
+    "Unavailable inventory offers an opt-in local alert",
+    "Keyboard focus reaches controls",
+    "24 mobile screen captures plus 6 tablet/desktop captures"
+  ],
+  "errors": [],
+  "dimensions": [
+    {
+      "theme": "a",
+      "screen": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "menu",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "event",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "plans",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "rewards",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "vip",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "live",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "navigate",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "theme": "a",
+      "screen": "home",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "menu",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "event",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "plans",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "rewards",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "vip",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "live",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "navigate",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "theme": "b",
+      "screen": "home",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "menu",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "event",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "plans",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "rewards",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "vip",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "live",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "navigate",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "theme": "c",
+      "screen": "home",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "scope": "Chromium/Edge, automated prototype checks; not WCAG certification or human usability testing"
+}
